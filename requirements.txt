@@ -1,0 +1,4 @@
+numpy
+pandas
+pygame
+mpi4py
