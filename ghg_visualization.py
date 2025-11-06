@@ -192,7 +192,7 @@ running = True
 land_patches = []
 for _ in range(8):
     angle = random.uniform(0, 2 * np.pi)
-    r = EARTH_RADIUS * random.uniform(0.3, 0.8)
+    r = EARTH_RADIUS * random.uniform(0.3, 0.7)
     land_x = int(CENTER[0] + r * np.cos(angle))
     land_y = int(CENTER[1] + r * np.sin(angle))
     land_width = random.randint(80, 160)
